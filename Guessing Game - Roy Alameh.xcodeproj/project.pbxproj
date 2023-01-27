@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2437781A29835D110039261B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437781929835D110039261B /* AppDelegate.swift */; };
+		2437781C29835D110039261B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437781B29835D110039261B /* SceneDelegate.swift */; };
+		2437781E29835D110039261B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437781D29835D110039261B /* ViewController.swift */; };
+		2437782129835D110039261B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2437781F29835D110039261B /* Main.storyboard */; };
+		2437782329835D110039261B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2437782229835D110039261B /* Assets.xcassets */; };
+		2437782629835D110039261B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2437782429835D110039261B /* LaunchScreen.storyboard */; };
+		2437783129835D120039261B /* Guessing_Game___Roy_AlamehTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437783029835D120039261B /* Guessing_Game___Roy_AlamehTests.swift */; };
+		2437783B29835D120039261B /* Guessing_Game___Roy_AlamehUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437783A29835D120039261B /* Guessing_Game___Roy_AlamehUITests.swift */; };
+		2437783D29835D120039261B /* Guessing_Game___Roy_AlamehUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437783C29835D120039261B /* Guessing_Game___Roy_AlamehUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2437782D29835D120039261B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2437780E29835D110039261B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2437781529835D110039261B;
+			remoteInfo = "Guessing Game - Roy Alameh";
+		};
+		2437783729835D120039261B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2437780E29835D110039261B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2437781529835D110039261B;
+			remoteInfo = "Guessing Game - Roy Alameh";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2437781629835D110039261B /* Guessing Game - Roy Alameh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guessing Game - Roy Alameh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2437781929835D110039261B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2437781B29835D110039261B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2437781D29835D110039261B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2437782029835D110039261B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2437782229835D110039261B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2437782529835D110039261B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2437782729835D110039261B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2437782C29835D120039261B /* Guessing Game - Roy AlamehTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guessing Game - Roy AlamehTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2437783029835D120039261B /* Guessing_Game___Roy_AlamehTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Guessing_Game___Roy_AlamehTests.swift"; sourceTree = "<group>"; };
+		2437783629835D120039261B /* Guessing Game - Roy AlamehUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guessing Game - Roy AlamehUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2437783A29835D120039261B /* Guessing_Game___Roy_AlamehUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Guessing_Game___Roy_AlamehUITests.swift"; sourceTree = "<group>"; };
+		2437783C29835D120039261B /* Guessing_Game___Roy_AlamehUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Guessing_Game___Roy_AlamehUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2437781329835D110039261B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2437782929835D120039261B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2437783329835D120039261B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2437780D29835D110039261B = {
+			isa = PBXGroup;
+			children = (
+				2437781829835D110039261B /* Guessing Game - Roy Alameh */,
+				2437782F29835D120039261B /* Guessing Game - Roy AlamehTests */,
+				2437783929835D120039261B /* Guessing Game - Roy AlamehUITests */,
+				2437781729835D110039261B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2437781729835D110039261B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2437781629835D110039261B /* Guessing Game - Roy Alameh.app */,
+				2437782C29835D120039261B /* Guessing Game - Roy AlamehTests.xctest */,
+				2437783629835D120039261B /* Guessing Game - Roy AlamehUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2437781829835D110039261B /* Guessing Game - Roy Alameh */ = {
+			isa = PBXGroup;
+			children = (
+				2437781929835D110039261B /* AppDelegate.swift */,
+				2437781B29835D110039261B /* SceneDelegate.swift */,
+				2437781D29835D110039261B /* ViewController.swift */,
+				2437781F29835D110039261B /* Main.storyboard */,
+				2437782229835D110039261B /* Assets.xcassets */,
+				2437782429835D110039261B /* LaunchScreen.storyboard */,
+				2437782729835D110039261B /* Info.plist */,
+			);
+			path = "Guessing Game - Roy Alameh";
+			sourceTree = "<group>";
+		};
+		2437782F29835D120039261B /* Guessing Game - Roy AlamehTests */ = {
+			isa = PBXGroup;
+			children = (
+				2437783029835D120039261B /* Guessing_Game___Roy_AlamehTests.swift */,
+			);
+			path = "Guessing Game - Roy AlamehTests";
+			sourceTree = "<group>";
+		};
+		2437783929835D120039261B /* Guessing Game - Roy AlamehUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2437783A29835D120039261B /* Guessing_Game___Roy_AlamehUITests.swift */,
+				2437783C29835D120039261B /* Guessing_Game___Roy_AlamehUITestsLaunchTests.swift */,
+			);
+			path = "Guessing Game - Roy AlamehUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2437781529835D110039261B /* Guessing Game - Roy Alameh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2437784029835D120039261B /* Build configuration list for PBXNativeTarget "Guessing Game - Roy Alameh" */;
+			buildPhases = (
+				2437781229835D110039261B /* Sources */,
+				2437781329835D110039261B /* Frameworks */,
+				2437781429835D110039261B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Guessing Game - Roy Alameh";
+			productName = "Guessing Game - Roy Alameh";
+			productReference = 2437781629835D110039261B /* Guessing Game - Roy Alameh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2437782B29835D120039261B /* Guessing Game - Roy AlamehTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2437784329835D120039261B /* Build configuration list for PBXNativeTarget "Guessing Game - Roy AlamehTests" */;
+			buildPhases = (
+				2437782829835D120039261B /* Sources */,
+				2437782929835D120039261B /* Frameworks */,
+				2437782A29835D120039261B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2437782E29835D120039261B /* PBXTargetDependency */,
+			);
+			name = "Guessing Game - Roy AlamehTests";
+			productName = "Guessing Game - Roy AlamehTests";
+			productReference = 2437782C29835D120039261B /* Guessing Game - Roy AlamehTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2437783529835D120039261B /* Guessing Game - Roy AlamehUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2437784629835D120039261B /* Build configuration list for PBXNativeTarget "Guessing Game - Roy AlamehUITests" */;
+			buildPhases = (
+				2437783229835D120039261B /* Sources */,
+				2437783329835D120039261B /* Frameworks */,
+				2437783429835D120039261B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2437783829835D120039261B /* PBXTargetDependency */,
+			);
+			name = "Guessing Game - Roy AlamehUITests";
+			productName = "Guessing Game - Roy AlamehUITests";
+			productReference = 2437783629835D120039261B /* Guessing Game - Roy AlamehUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2437780E29835D110039261B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2437781529835D110039261B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					2437782B29835D120039261B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2437781529835D110039261B;
+					};
+					2437783529835D120039261B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2437781529835D110039261B;
+					};
+				};
+			};
+			buildConfigurationList = 2437781129835D110039261B /* Build configuration list for PBXProject "Guessing Game - Roy Alameh" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2437780D29835D110039261B;
+			productRefGroup = 2437781729835D110039261B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2437781529835D110039261B /* Guessing Game - Roy Alameh */,
+				2437782B29835D120039261B /* Guessing Game - Roy AlamehTests */,
+				2437783529835D120039261B /* Guessing Game - Roy AlamehUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2437781429835D110039261B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2437782629835D110039261B /* LaunchScreen.storyboard in Resources */,
+				2437782329835D110039261B /* Assets.xcassets in Resources */,
+				2437782129835D110039261B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2437782A29835D120039261B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2437783429835D120039261B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2437781229835D110039261B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2437781E29835D110039261B /* ViewController.swift in Sources */,
+				2437781A29835D110039261B /* AppDelegate.swift in Sources */,
+				2437781C29835D110039261B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2437782829835D120039261B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2437783129835D120039261B /* Guessing_Game___Roy_AlamehTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2437783229835D120039261B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2437783D29835D120039261B /* Guessing_Game___Roy_AlamehUITestsLaunchTests.swift in Sources */,
+				2437783B29835D120039261B /* Guessing_Game___Roy_AlamehUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2437782E29835D120039261B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2437781529835D110039261B /* Guessing Game - Roy Alameh */;
+			targetProxy = 2437782D29835D120039261B /* PBXContainerItemProxy */;
+		};
+		2437783829835D120039261B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2437781529835D110039261B /* Guessing Game - Roy Alameh */;
+			targetProxy = 2437783729835D120039261B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2437781F29835D110039261B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2437782029835D110039261B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2437782429835D110039261B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2437782529835D110039261B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2437783E29835D120039261B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2437783F29835D120039261B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2437784129835D120039261B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CUGGN4XMQF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Guessing Game - Roy Alameh/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.roy.Guessing-Game---Roy-Alameh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2437784229835D120039261B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CUGGN4XMQF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Guessing Game - Roy Alameh/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.roy.Guessing-Game---Roy-Alameh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2437784429835D120039261B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CUGGN4XMQF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.roy.Guessing-Game---Roy-AlamehTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guessing Game - Roy Alameh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Guessing Game - Roy Alameh";
+			};
+			name = Debug;
+		};
+		2437784529835D120039261B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CUGGN4XMQF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.roy.Guessing-Game---Roy-AlamehTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guessing Game - Roy Alameh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Guessing Game - Roy Alameh";
+			};
+			name = Release;
+		};
+		2437784729835D120039261B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CUGGN4XMQF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.roy.Guessing-Game---Roy-AlamehUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Guessing Game - Roy Alameh";
+			};
+			name = Debug;
+		};
+		2437784829835D120039261B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CUGGN4XMQF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.roy.Guessing-Game---Roy-AlamehUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Guessing Game - Roy Alameh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2437781129835D110039261B /* Build configuration list for PBXProject "Guessing Game - Roy Alameh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2437783E29835D120039261B /* Debug */,
+				2437783F29835D120039261B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2437784029835D120039261B /* Build configuration list for PBXNativeTarget "Guessing Game - Roy Alameh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2437784129835D120039261B /* Debug */,
+				2437784229835D120039261B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2437784329835D120039261B /* Build configuration list for PBXNativeTarget "Guessing Game - Roy AlamehTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2437784429835D120039261B /* Debug */,
+				2437784529835D120039261B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2437784629835D120039261B /* Build configuration list for PBXNativeTarget "Guessing Game - Roy AlamehUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2437784729835D120039261B /* Debug */,
+				2437784829835D120039261B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2437780E29835D110039261B /* Project object */;
+}
